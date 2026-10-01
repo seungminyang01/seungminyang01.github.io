@@ -1,26 +1,67 @@
-        ○
-   Seungmin Yang
-   Computational Psychiatry · Clinical Neuroscience
+  /* ===== General ===== */
 
-   About Me
-   ─────────────────────────────────────
+body {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 60px 30px;
 
-   Hi! I am a full-time research assistant in a
-   Computational Clinical Science lab at Seoul
-   National University. I am interested in ...
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Helvetica, Arial, sans-serif;
 
-   I received my Bachelor's degree in Psychology
-   in Seoul National University ...
+    color: #333;
+    background-color: #ffffff;
 
-   Research
-   ─────────────────────────────────────
-
-
-   CV
-   ─────────────────────────────────────
-
-   Download CV
+    line-height: 1.7;
+}
 
 
-   Awards
-   ─────────────────────────────────────
+/* ===== Profile ===== */
+
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+
+/* ===== Headings ===== */
+
+h1 {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: #222;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+
+/* ===== Text ===== */
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 18px;
+    max-width: 750px;
+}
+
+
+/* ===== Links ===== */
+
+a {
+    color: #315f8c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
